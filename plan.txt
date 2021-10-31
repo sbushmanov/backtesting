@@ -1,0 +1,37 @@
+
+def crossover(x,y,i):
+        if x[i-1] < y[i-1] and x[i] > y[i]:
+                return 1
+        else:
+                return 0
+
+
+Objectives class:
+        - return
+        - Sharp
+        - Drawdown
+        
+Fit/predict:
+        - what is fit?
+        - fit "score" method
+
+
+Input indicators:
+        - Any number of indicators
+        - Indicators on arbitrary timeframes
+        
+In-trade indicators:
+        - check statistics when in trade (e.g. choose indicator that best performed recently)
+        
+        
+Trade:
+        - enter (long or short), exit (long or short)
+        - stop-loss, take-profit       
+   
+if signal1 and signal2:
+        buy
+        
+if signal1 and signal2 and stop-loss:
+        sell
+
+Backtesting
